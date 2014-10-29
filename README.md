@@ -9,10 +9,11 @@ I sometimes teach JavaScript to beginners. The classes usually involve pair prog
 
 1. Teacher creates new classroom that gets a unique URL (much like Co-Compare URLs).
 2. Students visit URL (do not need to log in; just provide a name).
+  - Unless classroom is set as *unlisted*, students can also join the classroom by simply finding it in a list on the home page.
   - Optional: Client UI shows real-time list of students as they join/leave (WebSockets?)
 3. Teacher clicks button to generate random pairs of students for pair programming.
 4. The generated pairs are saved into database until teacher clicks button again.
-5. Teacher can delete the "classroom", which renders that unique URL useless.
+5. Teacher can delete the classroom, which renders its unique URL useless.
 
 #### Data Model
 
@@ -30,10 +31,6 @@ I sometimes teach JavaScript to beginners. The classes usually involve pair prog
     {
       name: 'B',
       people: [ 'person 3', 'person 4' ]
-    },
-    {
-      name: 'C',
-      people: [ 'person 5', 'person 6' ]
     }
     // and so on...
   ]
