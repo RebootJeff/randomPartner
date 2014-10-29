@@ -45,6 +45,7 @@ I sometimes teach JavaScript to beginners. The classes usually involve pair prog
 - Randomizer will track history of generated groups to check if any newly generated groups are identical to past groups.
   - Client will highlight repeated groups. Or randomizer's selection process will simply avoid repeated groups as much as possible.
 - If students is logged in, then they can edit their respective group names into *Team West Coast is the Best Coast* or *Earth, Wind, and Code* or whathaveyou.
+- Add websockets for real-time client UI updating.
 
 ## Tech Stack
 
