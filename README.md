@@ -14,5 +14,5 @@ I sometimes teach JavaScript to beginners. The classes usually involve pair prog
 
 ## Tech Stack
 
-- **MEAN** stack: web app structure
-- **Angular-Material** library: UI components and mini-CSS framework
+- **MEAN** stack for web app structure
+- **Angular-Material** library for UI components and mini-CSS framework
