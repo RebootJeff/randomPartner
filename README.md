@@ -43,7 +43,7 @@ I sometimes teach JavaScript to beginners. The classes usually involve pair prog
 - If teacher is logged in, then classroom can be set to "unlisted" so it only shows up on home page if the visitor is the classroom's teacher/creator.
 - Randomizer will track history of generated groups to check if any newly generated groups are identical to past groups.
   - Client will highlight repeated groups. Or randomizer's selection process will simply avoid repeated groups as much as possible.
-- If students is logged in, then they can edit their respective group names.
+- If students is logged in, then they can edit their respective group names into *Team West Coast is the Best Coast* or *Earth, Wind, and Code* or whathaveyou.
 
 ## Tech Stack
 
