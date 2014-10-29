@@ -19,13 +19,22 @@ I sometimes teach JavaScript to beginners. The classes usually involve pair prog
 ```JavaScript
 // Classroom object...
 {
-  name: 'Nov 16 2014 JS Fundamentals part 2',
+  name: 'JS Fundamentals part 2',
   createdAt: ISODate(/* blah blah blah */),
   updatedAt: ISODate(/* blah blah blah */),
   groups: [
-    [ 'name 1', 'name 2' ],
-    [ 'name 3', 'name 4' ],
-    [ 'name 5', 'name 6' ]
+    {
+      name: 'A',
+      people: [ 'person 1', 'person 2' ]
+    },
+    {
+      name: 'B',
+      people: [ 'person 3', 'person 4' ]
+    },
+    {
+      name: 'C',
+      people: [ 'person 5', 'person 6' ]
+    }
     // and so on...
   ]
 }
