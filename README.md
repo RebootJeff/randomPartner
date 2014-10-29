@@ -7,16 +7,33 @@ I sometimes teach JavaScript to beginners. The classes usually involve pair prog
 
 ### Plan for v1.0
 
-1. Teacher (must be logged in) creates new classroom that gets a unique URL (much like Co-Compare URLs).
+1. Teacher creates new classroom that gets a unique URL (much like Co-Compare URLs).
 2. Students visit URL (do not need to log in; just provide a name).
   - Optional: Client UI shows real-time list of students as they join/leave (WebSockets?)
 3. Teacher clicks button to generate random pairs of students for pair programming.
 4. The generated pairs are saved into database until teacher clicks button again.
 5. Teacher can delete the "classroom", which renders that unique URL useless.
 
-### Plan for v1.1
+#### Data Model
 
-Teacher can change target group size from 2 to N. The grouping algorithm must avoid creating groups of 1 whenever the target group size is greater than 2.
+```JavaScript
+// Classroom object...
+{
+  name: 'Nov 16 2014 JS Fundamentals part 2',
+  createdAt: ISODate(/* blah blah blah */),
+  updatedAt: ISODate(/* blah blah blah */),
+  groups: [
+    [ 'name 1', 'name 2' ],
+    [ 'name 3', 'name 4' ],
+    [ 'name 5', 'name 6' ]
+    // and so on...
+  ]
+}
+```
+
+### TODO
+- Teacher can change target group size from 2 to N. The grouping algorithm must avoid creating groups of 1 whenever the target group size is greater than 2.
+- If teacher is logged in, then classroom can be set to "unlisted" so it only shows up on home page if the visitor is the classroom's teacher/creator.
 
 ## Tech Stack
 
