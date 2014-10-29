@@ -23,6 +23,7 @@ I sometimes teach JavaScript to beginners. The classes usually involve pair prog
   name: 'JS Fundamentals part 2',
   createdAt: ISODate(/* blah blah blah */),
   updatedAt: ISODate(/* blah blah blah */),
+  teacher: '@RebootJeff', // aka classroom creator
   groups: [
     {
       name: 'A',
