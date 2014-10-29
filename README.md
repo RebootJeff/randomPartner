@@ -12,6 +12,7 @@ I sometimes teach JavaScript to beginners. The classes usually involve pair prog
   - Unless classroom is set as *unlisted*, students can also join the classroom by simply finding it in a list on the home page.
   - Optional: Client UI shows real-time list of students as they join/leave (WebSockets?)
 3. Teacher clicks button to generate random pairs of students for pair programming.
+  - Optional: Client UI shows groups generated in real-time (without refreshing browser).
 4. The generated pairs are saved into database until teacher clicks button again.
 5. Teacher can delete the classroom, which renders its unique URL useless.
 
