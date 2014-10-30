@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- base URL needed by Angular for $location HTML5 Mode -->
+    <base href="/" />
+
+    <title>Random Teamwork</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Group Randomizer for generating pairs/teams" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body ng-app="mainApp">
+    <!--if lt IE 8
+      <p>
+        You are using an <strong>outdated</strong> browser.
+        Please <a href="http://browsehappy.com/">upgrade your browser</a>
+        to improve your experience.
+      </p>
+    -->
+
+    <div ui-view></div>
+
+    <!-- JavaScript to run the app -->
+    <script src="/js/vendor.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

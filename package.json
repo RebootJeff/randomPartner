@@ -1,0 +1,32 @@
+{
+  "name": "randomTeamwork",
+  "version": "1.0.0",
+  "description": "Random Teamwork =============",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RebootJeff/randomTeamwork.git"
+  },
+  "author": "@RebootJeff",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/RebootJeff/randomTeamwork/issues"
+  },
+  "homepage": "https://github.com/RebootJeff/randomTeamwork",
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "express": "^4.10.1",
+    "morgan": "^1.4.1"
+  },
+  "devDependencies": {
+    "del": "^0.1.3",
+    "gulp": "^3.8.9",
+    "gulp-concat": "^2.4.1",
+    "gulp-less": "^1.3.6",
+    "gulp-nodemon": "^1.0.4",
+    "gulp-print": "^1.1.0"
+  }
+}

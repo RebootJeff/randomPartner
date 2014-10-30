@@ -1,0 +1,22 @@
+{
+  "name": "randomTeamwork",
+  "version": "0.0.0",
+  "homepage": "https://github.com/RebootJeff/randomTeamwork",
+  "authors": [
+    "@RebootJeff"
+  ],
+  "license": "GPL v3",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.0",
+    "angular-material": "~0.4.2",
+    "angular-ui-router": "~0.2.11"
+  }
+}
