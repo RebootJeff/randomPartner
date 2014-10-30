@@ -1,6 +1,7 @@
 angular.module('mainApp', [
   // 1st party dependencies
   'browseFeature',
+  'createClassroomFeature',
 
   // 3rd party dependencies
   'ngAnimate',
