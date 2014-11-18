@@ -10,6 +10,8 @@ function setupRoutes(app) {
       // I'm also an example! For future reference, no doubt.
     });
 
+  app.route('/api/classroom/:hash').get(classroomsCtrl.findByHash);
+
   app.route('/api/classroom/create').post(classroomsCtrl.create);
 
   // Default to home page

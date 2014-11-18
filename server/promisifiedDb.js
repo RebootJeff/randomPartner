@@ -20,6 +20,20 @@ promisifiedDb.connect = function(url) {
   return deferred.promise;
 };
 
+promisifiedDb.find = function(collectionName, query) {
+  var deferred = Q.defer();
+
+  db.collection(collectionName).find(query, function(err, result) {
+    if(err) {
+      deferred.reject(err);
+    } else {
+      deferred.resolve(result);
+    }
+  });
+
+  return deferred.promise;
+};
+
 promisifiedDb.insert = function(collectionName, doc) {
   var deferred = Q.defer();
 
