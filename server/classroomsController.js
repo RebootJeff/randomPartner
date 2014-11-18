@@ -16,6 +16,20 @@ classroomsCtrl.findByHash = function(req, res, next) {
 
 };
 
+classroomsCtrl.updateByHash = function(req, res, next) {
+
+  database.findAndUpdate({
+
+  }).then(function(updatedClassroom) {
+    res.send(200, updatedClassroom);
+
+  }).catch(function(err) {
+    // TODO - Check if status code should be 404 or 500
+    res.send(500, err);
+  });
+
+};
+
 classroomsCtrl.create = function(req, res, next) {
 
   database.insert('classrooms', {
